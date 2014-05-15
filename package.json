@@ -1,0 +1,31 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "testing CI",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^1.9.1",
+    "expect.js": "^0.3.1",
+    "superagent": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --recursive -R xunit test/ > test-reports.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oronoa/testci.git"
+  },
+  "keywords": [
+    "ci"
+  ],
+  "author": "oron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oronoa/testci/issues"
+  },
+  "homepage": "https://github.com/oronoa/testci"
+}
