@@ -16,7 +16,7 @@ it("should fallback to defaults", function(){
     var results = tags.parse(args, defaults);
  
     var expected = {
-        depth: 4,
+        depth: 2,
         hello: "world"
     };
  
